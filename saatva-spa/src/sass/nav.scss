@@ -1,0 +1,13 @@
+.nav {
+  // height: 50px;
+  padding: 30px 50px 10px 50px;
+  display: flex;
+  align-content: center;
+  border-bottom: 1px solid $saatva-dark-grey;
+}
+
+.brand-logo {
+  font-size: 25px;
+  font-family: "Questrial";
+  color: $saatva-gold;
+}

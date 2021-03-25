@@ -1,0 +1,68 @@
+.mattress-container {
+  background-color: $saatva-light-background;
+  padding: 15px 50px 50px 50px;
+}
+
+.mattress-details {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  font-weight: bold;
+  font-size: 13px;
+
+  .mattress-price {
+    color: $saatva-dark-grey;
+    font-weight: initial;
+  }
+}
+
+.list-label {
+  display: flex;
+  align-items: start;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: flex-end;
+  height: 400px;
+  width: 300px;
+
+  img {
+    max-width: 600px;
+    height: 100%;
+  }
+
+  @media screen and (max-width: 992px) {
+    height: 300px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    height: 200px;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.selection-container {
+  max-width: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  .section-header {
+    display: inline-flex;
+  }
+  & > div {
+    width: 100%;
+  }
+}
